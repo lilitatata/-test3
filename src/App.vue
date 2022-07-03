@@ -4,9 +4,20 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
-    <router-view/>
+    <div>
+      <span> </span>
+    </div>
+    <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {}
+  }
+}
+</script>
 
 <style lang="less">
 #app {
